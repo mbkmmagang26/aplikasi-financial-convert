@@ -243,14 +243,16 @@ export default function ProcessPage() {
                 className="btn btn-primary"
                 onClick={handleProcess}
                 disabled={loading || inputFiles.length === 0}
+                style={{ minWidth: '160px' }}
               >
-                {loading && (
-                <div style={{ marginTop: '0.5rem', width: '100%' }}>
+                {loading ? '⚙️ Memproses...' : '▶ Proses Sekarang'}
+              </button>
+              {loading && (
+                <div style={{ width: '100%' }}>
                   <progress value={progress} max="100" style={{ width: '100%' }} />
-                  <div style={{ textAlign: 'center', fontSize: '0.85rem', marginTop: '0.25rem' }}>{progress}%</div>
+                  <div style={{ textAlign: 'center', fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '0.2rem' }}>{progress}%</div>
                 </div>
               )}
-              </button>
             </div>
           </div>
         </div>
