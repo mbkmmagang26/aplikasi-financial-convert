@@ -210,10 +210,6 @@ export default function App() {
           ))}
 
           <div className="sidebar-section-title" style={{ marginTop: '0.75rem' }}>Lainnya</div>
-          <a href="/research" target="_blank" rel="noopener noreferrer" className="nav-btn">
-            <span className="nav-icon">🔍</span>
-            <span className="nav-label">Research Engine</span>
-          </a>
           <button className="nav-btn" onClick={handleLogout} style={{ color: 'var(--danger)', marginTop: 'auto' }}>
             <span className="nav-icon">🚪</span>
             <span className="nav-label">Keluar (Logout)</span>
