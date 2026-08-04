@@ -13,3 +13,6 @@ output-app/
 backend/input-trash/
 output/
 .vercel
+
+# Frontend build output - jangan di-commit, Railway build sendiri
+frontend/dist/
