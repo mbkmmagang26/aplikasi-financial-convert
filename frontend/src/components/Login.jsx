@@ -79,8 +79,12 @@ export default function Login() {
       <div className="login-card">
         {/* Header */}
         <div className="login-header">
-          <div className="login-logo-icon">💧</div>
-          <h1 className="login-title">PDAM Seruyan</h1>
+          <div className="login-logo-icon">
+            <div style={{ background: '#fff', borderRadius: '50%', padding: '5px', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '90px', height: '90px', margin: '0 auto' }}>
+              <img src="/logo-pdam.png" alt="Logo PDAM Tirta Seruyan" style={{ width: '100%', height: '100%', objectFit: 'contain', borderRadius: '50%' }} />
+            </div>
+          </div>
+          <h1 className="login-title">PDAM Tirta Seruyan</h1>
           <p className="login-subtitle">Sistem Keuangan Digital</p>
         </div>
 

@@ -106,19 +106,17 @@ export default function Dashboard({ setPage }) {
             <div className="dash-balance-pattern"></div>
             <div className="dash-balance-inner">
               <div className="dash-balance-top">
-                <div className="dash-balance-icon">💧</div>
+                <div className="dash-balance-icon" style={{ background: '#fff', padding: '2px', borderRadius: '50%' }}>
+                  <img src="/logo-pdam.png" alt="Logo PDAM" style={{ width: '36px', height: '36px', objectFit: 'contain', borderRadius: '50%' }} />
+                </div>
                 <div className="dash-balance-info">
-                  <span className="dash-balance-label">PDAM SERUYAN</span>
+                  <span className="dash-balance-label">PDAM TIRTA SERUYAN</span>
                   <span className="dash-balance-acct">Kas & Bank Operasional</span>
                 </div>
               </div>
               <div className="dash-balance-main">
                 <span className="dash-balance-prefix">Saldo efektif</span>
                 <span className="dash-balance-amount">Rp{formatRupiah(totalKas)}</span>
-              </div>
-              <div className="dash-balance-bottom">
-                <span className="dash-balance-card-num">•••• •••• •••• 8810</span>
-                <span className="dash-balance-holder">PDAM Operasional</span>
               </div>
             </div>
           </div>

@@ -187,9 +187,11 @@ export default function App() {
       {/* Desktop Sidebar */}
       <aside className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
         <div className="sidebar-header">
-          <div className="sidebar-logo">💧</div>
+          <div className="sidebar-logo" style={{ background: '#fff', borderRadius: '50%', padding: '2px', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '42px', height: '42px' }}>
+            <img src="/logo-pdam.png" alt="Logo PDAM Tirta Seruyan" style={{ width: '100%', height: '100%', objectFit: 'contain', borderRadius: '50%' }} />
+          </div>
           <div className="sidebar-brand-text">
-            <span className="sidebar-brand-name">PDAM Seruyan</span>
+            <span className="sidebar-brand-name">PDAM Tirta Seruyan</span>
             <span className="sidebar-brand-sub">Sistem Keuangan Digital</span>
           </div>
         </div>
@@ -223,9 +225,11 @@ export default function App() {
         {/* Topbar */}
         <header className="topbar">
           <div className="topbar-brand">
-            <div className="topbar-logo">💧</div>
+            <div className="topbar-logo" style={{ background: '#fff', borderRadius: '50%', padding: '2px', display: 'flex', alignItems: 'center', justifyContent: 'center', width: '38px', height: '38px' }}>
+              <img src="/logo-pdam.png" alt="Logo PDAM Tirta Seruyan" style={{ width: '100%', height: '100%', objectFit: 'contain', borderRadius: '50%' }} />
+            </div>
             <div className="topbar-title">
-              <span className="topbar-name">PDAM Seruyan</span>
+              <span className="topbar-name">PDAM Tirta Seruyan</span>
               <span className="topbar-subtitle">Sistem Keuangan Digital</span>
             </div>
           </div>
